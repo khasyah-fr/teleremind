@@ -1,0 +1,24 @@
+{
+  "name": "teleremind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "teleremind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khasyah-fr/teleremind.git"
+  },
+  "author": "khasyah-fr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khasyah-fr/teleremind/issues"
+  },
+  "homepage": "https://github.com/khasyah-fr/teleremind#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
