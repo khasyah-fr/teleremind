@@ -13,7 +13,8 @@ async function checkWeb() {
     try {
         const response = await axios.get(TARGET_URL, {timeout: 10000})
         if ( response.status >= 200 && response.status < 400) {
-            await teleBot.sendMessage(CHAT_ID, `Web ${TARGET_URL} is up`)
+            // do nothing for now
+            // await teleBot.sendMessage(CHAT_ID, `Web ${TARGET_URL} is up`)
         } else {
             await teleBot.sendMessage(CHAT_ID, `Web ${TARGET_URL} is down with status ${response.status}`)
         }
